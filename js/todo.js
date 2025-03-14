@@ -1,14 +1,11 @@
 
 const carrito = document.querySelector('#carrito');
-const listaFruver = document.querySelector('#lista-fruver');
-const contenedorCarrito = document.querySelector('#lista-carrito tbody');
-const vaciarCarritoBtn = document.querySelector('#vaciar-carrito');
+// const listaFruver = document.querySelector('#lista-fruver');
+const compras = document.querySelector('#compras');
 let articulosCarrito = [];
 
 //Listeners *****
 cargarEventListeners();
-
-
 
 function actualizarCantidad(productoId, aumentar) {
     articulosCarrito = articulosCarrito.map(producto => {
@@ -54,10 +51,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function cargarEventListeners () {
     //Cuando agregas un curso presionando 'Agregar al carrito'
-    listaFruver.addEventListener('click', agregarFruver);
+    //listaFruver.addEventListener('click', agregarFruver);
     //Elimina cursos del carrito
-    carrito.addEventListener("click",eliminarFruver);
-
+    //carrito.addEventListener("click",eliminarFruver);
+    compras.addEventListener("click", agregarCurso);
+    
     //muestra los cursos del storage
     document.addEventListener('DOMContentLoaded', () => {
         //recuerda si no hay productos en el carrito se agrega un array vácio para que no de error.
@@ -73,27 +71,42 @@ function cargarEventListeners () {
             }
         });
     });
+
     //Vaciar carrito
-    vaciarCarritoBtn.addEventListener("click", () => {
+    /*vaciarCarritoBtn.addEventListener("click", () => {
         articulosCarrito = [];
         limpiarHTML();
-    });
+    });*/
 }
 
 // Funciones ****************************************
 
-function agregarFruver (e) {
-    e.preventDefault();
+function agregarFruver (nombreProducto, cantidad) {
+    console.log("Agregando", cantidad, nombreProducto, "/s");
+    nombreProducto.preventDefault();
     // Delegation para agregar-carrito
-    if (e.target.classList.contains('agregar-carrito')) {
+    if (nombreProducto.target.classList.contains('agregar-carrito')) {
 
-        const producto = e.target.parentElement.parentElement;
+        const producto = nombreProducto.target.parentElement.parentElement;
         // Enviamos el curso seleccionado para tomar sus datos
         console.log(producto);
         leerDatosFruver(producto);
         productoAgregado(producto);
     }
 }
+
+function agregarCurso (e) {
+    e.preventDefault();
+    // Delegation para agregar-carrito
+    if (e.target.classList.contains('agregar-carrito')) {
+
+        const curso = e.target.parentElement.parentElement;
+        // Enviamos el curso seleccionado para tomar sus datos
+        console.log(curso);
+        leerDatosFruver(curso);
+    }
+}
+
 function productoAgregado(producto){
     //Crear una alerta
     const alert = document.createElement("H4");
@@ -125,7 +138,8 @@ function leerDatosFruver (producto) {
         titulo: producto.querySelector('h4').textContent,
         precio: producto.querySelector('.precio span').textContent,
         id: producto.querySelector('a').getAttribute('data-id'),
-        cantidad: 1
+        unidad: producto.querySelector('select').value,
+        cantidad: producto.querySelector('input').value,
     }
     //Revisa si un elemento ya existe en el carrito
     const existe = articulosCarrito.some(producto => producto.id === infoFruver.id);
@@ -147,45 +161,20 @@ function leerDatosFruver (producto) {
     }
 
     //Agregar elementos al carrito  
+    console.log("titulo: ", infoFruver.titulo);
+    console.log("precio: ", infoFruver.precio);
+    console.log("id: ", infoFruver.id);
+    console.log("unidad: ", infoFruver.unidad);
+    console.log("cantidad: ", infoFruver.cantidad);
     carritoHTML();
 }
 
 
 
 function carritoHTML() {
-    limpiarHTML();
-
-    articulosCarrito.forEach(producto => {
-        const row = document.createElement('tr');
-        row.innerHTML = `
-            <td>  
-                <img src="${producto.imagen}" width=100>
-            </td>
-            <td>${producto.titulo}</td>
-            <td>${producto.precio}</td>
-            <td>
-                <button type="button" class="minus-button" data-id="${producto.id}">-</button>
-                <input type="number" value="${producto.cantidad}" min="0" max="10" step="1" disabled>
-                <button type="button" class="plus-button" data-id="${producto.id}">+</button>
-            </td>
-            <td>
-                <a href="#" class="borrar-producto" data-id="${producto.id}">X</a>
-            </td>
-        `;
-        contenedorCarrito.appendChild(row);
-    });
-
     sincronizarStorage();
 }
 
 function sincronizarStorage() {
     localStorage.setItem("carrito", JSON.stringify(articulosCarrito));
-}
-// Elimina los cursos del tbody
-function limpiarHTML () {
-    //forma lenta
-    //:contenedorCarrito.innerHTML = '';
-    while (contenedorCarrito.firstChild) {
-        contenedorCarrito.removeChild(contenedorCarrito.firstChild)
-    }
 }

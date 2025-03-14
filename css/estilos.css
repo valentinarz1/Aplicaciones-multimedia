@@ -1,4 +1,37 @@
 
+.info-card h4 
+{
+    
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+    text-align: center;
+    width: 200px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .submenu #carrito{
     display: none;
 }
@@ -18,16 +51,17 @@
     margin:10px 0;
     
 }
-table {
+table #carrito
+ {
     border-collapse: collapse;
     border-spacing: 0;
   }
   
-  td,
-  th {
+ td, th #carrito
+ {
     padding: 0;
   }
-  thead {
+  thead #carrito {
     display: table-header-group;
     vertical-align: middle;
     unicode-bidi: isolate;
@@ -42,10 +76,15 @@ table {
     font-weight: bold;
 }
 
-ul {
+ul #carrito {
     list-style: none;
 }
 
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+}
 
 
 
@@ -781,6 +820,7 @@ header{
  width: 200px;
  display: inline-block;
  color: black;
+ margin-top: 0px;
  
 }
 
@@ -867,7 +907,7 @@ form
     vertical-align: middle;
 }
 
-#carrito img 
+#carrito-manzana img, #carrito-banano img , #carrito-naranja img 
 {
     width: 50px;
     display: inline-block;

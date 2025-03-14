@@ -26,15 +26,14 @@
 
   <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
   <script type="text/javascript" src="js/j-sliding-banner.min.js"></script>
-  <script type="text/javascript" src="js/todo.js"></script>
 
 </head>
 <body>
     <header>
         <div class="contenedortop">
             <ul>
-                <li><a href="#">sesion.html</a></li>
-                <li><a href="#">CARRITO<i class="fas fa-shopping-cart"></i></a></li>
+                <li><a href="sesion.html">INICIA SESIÓN</a></li>
+                <li><a href="carrito.html">CARRITO<i class="fas fa-shopping-cart"></i></a></li>
             </ul>
         </div>
         <div class="contenedor">
@@ -94,7 +93,25 @@
                 </div>
             </div>
             <div id="cdos">
-
+                <div class="card">
+                    <img src="images/FRUTAS-11.png" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Manzana Roja</h4>
+                        <p>Jugosa y dulce, perfecta para comer fresca o en postres. Rica en fibra y antioxidantes, ideal para una 
+                            alimentación saludable.</p>
+                        <form action="#">
+                            <label for="lang">Cantidad</label>
+                            <select name="Cantidad" id="lang">
+                               <option value="libras">Libras</option>
+                               <option value="kilos">Kilos</option>
+                            </select>
+                        </form>
+                        <input type="number" value="0" min="0" max="10" step="1">
+                        <p class="precio">$200 <span class="u-pull-right ">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar Al Carrito</a>
+                    </div>
+                </div>
+                <!--
                 <div id="foto"><img src="images/FRUTAS-11.png"></div>
                 <div id="titulo"><p><strong>Manzana Roja </strong></p></div>
                 <div id="descripcion">
@@ -114,65 +131,135 @@
                         <input type="number" value="0" min="0" max="10" step="1">
                         <button type="button" id="plus-button">+</button>
                   
-                      <div id="carrito"><a href="button input agregar-carrito" data-id="1"><img src="images/carrito-de-compras.png"></a></div>
+                      <div id="carrito-manzana"><img src="images/carrito-de-compras.png"></div>
                     </div>
                 </div>
+                -->
+
+
             </div>
             <div id="ctres">
+                <div class="card">
+                    <img src="images/FRUTAS-12.png" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Banano</h4>
+                        <p>Suave y cremoso, con un dulzor natural. Excelente fuente de energía, potasio y vitaminas. Perfecto para snacks o batidos.</p>
+                        <form action="#">
+                            <label for="lang">Cantidad</label>
+                            <select name="Cantidad" id="lang">
+                               <option value="libras">Libras</option>
+                               <option value="kilos">Kilos</option>
+                            </select>
+                        </form>
+                        <input type="number" value="0" min="0" max="10" step="1">
+                        <p class="precio">$200 <span class="u-pull-right ">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar Al Carrito</a>
+                    </div>
+                </div>
+                 <!--
                 <div id="foto"><img src="images/FRUTAS-12.png"></div>
-                <div id="tallas"><a href="#"><img src="images/tallas.jpeg"></a></div>
-                <div id="titulo"><p><strong>Banano</strong></p></div>
+                <div id="titulo">Banano</strong></p></div>
                 <div id="descripcion">
                     <p>Suave y cremoso, con un dulzor natural. Excelente fuente de energía, potasio y vitaminas. Perfecto para snacks o batidos.</p>
-                    <br> <br>
-
-                    <div id="botones">
-                        <a href="#"><img src="images/colores2.jpeg"></a>
-
-                    </div>
                     <div id="abajo">
-                        199 USD
-                        <div id="carrito"><a href="button input agregar-carrito" data-id="2"><img src="images/carrito-de-compras.png"></a></div>
+                        <p id='precio'>$30.000 COP</p>
+                        <form action="#">
+                            <label for="lang">Cantidad</label>
+                            <select name="Cantidad" id="lang">
+                              <option value="libras">Libras</option>
+                              <option value="kilos">Kilos</option>
+                            </select>
+                      </form>
+                        <button type="button" id="minus-button">-</button>
+                        <input type="number" value="0" min="0" max="10" step="1">
+                        <button type="button" id="plus-button">+</button>
+                  
+                      <div id="carrito-banano"><img src="images/carrito-de-compras.png"></div>
+                    </div>
+                </div>-->
+            </div> 
+            <div id="ccuatro">
+                <div class="card">
+                    <img src="images/FRUTAS-13.png" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Naranja</h4>
+                        <p>Refrescante y cítrica, con un alto contenido de vitamina C. Ideal para jugos naturales y fortalecer el sistema inmunológico.</p>
+                        <form action="#">
+                            <label for="lang">Cantidad</label>
+                            <select name="Cantidad" id="lang">
+                               <option value="libras">Libras</option>
+                               <option value="kilos">Kilos</option>
+                            </select>
+                        </form>
+                        <input type="number" value="0" min="0" max="10" step="1">
+                        <p class="precio">$200 <span class="u-pull-right ">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar Al Carrito</a>
                     </div>
                 </div>
-            </div>
-            <div id="ccuatro">
-                <div id="foto">
+
+                <!--<div id="foto">
                     <img src="images/FRUTAS-13.png">
-                </div>
-                <div id="tallas"><a href="#"><img src="images/tallas.jpeg"></a></div>
+                </div>   
                 <div id="titulo"><p><strong>Naranja</strong></p></div>
                 <div id="descripcion">
                     <p>Refrescante y cítrica, con un alto contenido de vitamina C. Ideal para jugos naturales y fortalecer el sistema inmunológico.</p>
-                    <br> <br>
-
-                    <div id="botones">
-                        <a href="#"><img src="images/colores3.jpeg"></a>
-
-                    </div>
                     <div id="abajo">
-                        199 USD
-                        <div id="carrito"><a href="button input agregar-carrito" data-id="3"><img src="images/carrito-de-compras.png"></a></div>
+                        <p>$30.000 COP</p>
+                        <form action="#">
+                            <label for="lang">Cantidad</label>
+                            <select name="Cantidad" id="lang">
+                              <option value="libras">Libras</option>
+                              <option value="kilos">Kilos</option>
+                            </select>
+                      </form>
+                        <button type="button" id="minus-button">-</button>
+                        <input type="number" value="0" min="0" max="10" step="1">
+                        <button type="button" id="plus-button">+</button>
+                  
+                      <div id="carrito-naranja"><img src="images/carrito-de-compras.png"></div>
                     </div>
-                </div>
+                </div>-->
             </div>
             <div id="ccinco">
-                <div id="foto"><img src="images/FRUTAS-14.png"></div>
-                <div id="tallas"><a href="#"><img src="images/tallas.jpeg"></a></div>
+                <div class="card">
+                    <img src="images/FRUTAS-14.png" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Fresa</h4>
+                        <p>Pequeña, dulce y con un toque ácido. Rica en antioxidantes y vitamina C, ideal para postres, batidos y ensaladas.</p>
+                        <form action="#">
+                            <label for="lang">Cantidad</label>
+                            <select name="Cantidad" id="lang">
+                               <option value="libras">Libras</option>
+                               <option value="kilos">Kilos</option>
+                            </select>
+                        </form>
+                        <input type="number" value="0" min="0" max="10" step="1">
+                        <p class="precio">$200 <span class="u-pull-right ">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar Al Carrito</a>
+                    </div>
+                </div>
+                
+                <!--<div id="foto"><img src="images/FRUTAS-14.png"></div>
                 <div id="titulo"><p><strong>Fresa</strong></p></div>
                 <div id="descripcion">
                     <p>Pequeña, dulce y con un toque ácido. Rica en antioxidantes y vitamina C, ideal para postres, batidos y ensaladas.</p>
-                    <br> <br>
 
-                    <div id="botones">
-                        <a href="#"><img src="images/colores2.jpeg"></a>
-
-                    </div>
                     <div id="abajo">
-                        199 USD
-                        <div id="carrito"><a href="button input agregar-carrito" data-id="4"><img src="images/carrito-de-compras.png"></a></div>
+                        <p>$30.000 COP</p>
+                        <form action="#">
+                            <label for="lang">Cantidad</label>
+                            <select name="Cantidad" id="lang">
+                              <option value="libras">Libras</option>
+                              <option value="kilos">Kilos</option>
+                            </select>
+                      </form>
+                        <button type="button" id="minus-button">-</button>
+                        <input type="number" value="0" min="0" max="10" step="1">
+                        <button type="button" id="plus-button">+</button>
+                        <div id="carrito-fresa"><img src="images/carrito-de-compras.png"></a></div>
                     </div>
-                </div>
+
+                </div>-->
             </div>
         </div>
         <div id="dos">
@@ -197,78 +284,166 @@
                 </div>
             </div>
             <div id="cdos">
+                <div class="card">
+                    <img src="images/FRUTAS-15.png" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Mango</h4>
+                        <p>Carnoso y aromático, con un equilibrio perfecto entre dulzura y acidez. Fuente de fibra y vitaminas A y C.</p>
+                        <form action="#">
+                            <label for="lang">Cantidad</label>
+                            <select name="Cantidad" id="lang">
+                               <option value="libras">Libras</option>
+                               <option value="kilos">Kilos</option>
+                            </select>
+                        </form>
+                        <input type="number" value="0" min="0" max="10" step="1">
+                        <p class="precio">$200 <span class="u-pull-right ">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar Al Carrito</a>
+                    </div>
+                </div>
 
-                <div id="foto"><img src="images/FRUTAS-15.png"></div>
-                <div id="tallas"><a href="#"><img src="images/tallas.jpeg"></a></div>
+
+                <!--<div id="foto"><img src="images/FRUTAS-15.png"></div>
                 <div id="titulo"><p><strong>Mango</strong></p></div>
                 <div id="descripcion">
                     <p>Carnoso y aromático, con un equilibrio perfecto entre dulzura y acidez. Fuente de fibra y vitaminas A y C.</p>
-                    <br> <br>
-
-                    <div id="botones">
-                        <a href="#"><img src="images/colores.jpeg"></a>
-
-                    </div>
                     <div id="abajo">
-                        280 USD
-                        <div id="carrito"><a href="button input agregar-carrito" data-id="5"><img src="images/carrito-de-compras.png"></a></div>
+                        <p>$30.000 COP</p>
+                        <form action="#">
+                            <label for="lang">Cantidad</label>
+                            <select name="Cantidad" id="lang">
+                              <option value="libras">Libras</option>
+                              <option value="kilos">Kilos</option>
+                            </select>
+                      </form>
+                        <button type="button" id="minus-button">-</button>
+                        <input type="number" value="0" min="0" max="10" step="1">
+                        <button type="button" id="plus-button">+</button>
+                        <div id="carrito-mango"><img src="images/carrito-de-compras.png"></a></div>
                     </div>
-                </div>
+                </div>-->
             </div>
             <div id="ctres">
-                <div id="foto"><img src="images/FRUTAS-16.png"></div>
-                <div id="tallas"><a href="#"><img src="images/tallas.jpeg"></a></div>
+                <div class="card">
+                    <img src="images/FRUTAS-16.png" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Piña</h4>
+                        <p>Refrescante y tropical, con un dulzor único. Rica en bromelina, ayuda a la digestión y fortalece el sistema inmunológico.</p>
+                        <form action="#">
+                            <label for="lang">Cantidad</label>
+                            <select name="Cantidad" id="lang">
+                               <option value="libras">Libras</option>
+                               <option value="kilos">Kilos</option>
+                            </select>
+                        </form>
+                        <input type="number" value="0" min="0" max="10" step="1">
+                        <p class="precio">$200 <span class="u-pull-right ">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar Al Carrito</a>
+                    </div>
+                </div>
+
+                <!--<div id="foto"><img src="images/FRUTAS-16.png"></div>
                 <div id="titulo"><p><strong>Piña</strong></p></div>
                 <div id="descripcion">
                     <p>Refrescante y tropical, con un dulzor único. Rica en bromelina, ayuda a la digestión y fortalece el sistema inmunológico.</p>
-                    <br> <br>
-
-                    <div id="botones">
-                        <a href="#"><img src="images/colores2.jpeg"></a>
-
-                    </div>
                     <div id="abajo">
-                        230 USD
-                        <div id="carrito"><a href="button input agregar-carrito" data-id="6"><img src="images/carrito-de-compras.png"></a></div>
+                        <p>$30.000 COP</p>
+                        <form action="#">
+                            <label for="lang">Cantidad</label>
+                            <select name="Cantidad" id="lang">
+                              <option value="libras">Libras</option>
+                              <option value="kilos">Kilos</option>
+                            </select>
+                      </form>
+                        <button type="button" id="minus-button">-</button>
+                        <input type="number" value="0" min="0" max="10" step="1">
+                        <button type="button" id="plus-button">+</button>
+                        <div id="carrito-pinya"><img src="images/carrito-de-compras.png"></a></div>
                     </div>
-                </div>
+                </div>-->
+
             </div>
             <div id="ccuatro">
-                <div id="foto"><img src="images/FRUTAS-17.png"></div>
-                <div id="tallas"><a href="#"><img src="images/tallas.jpeg"></a></div>
+                <div class="card">
+                    <img src="images/FRUTAS-17.png" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Aguacate</h4>
+                        <p>Cremoso y versátil, con grasas saludables. Perfecto para ensaladas, tostadas y guacamole.</p>
+                        <form action="#">
+                            <label for="lang">Cantidad</label>
+                            <select name="Cantidad" id="lang">
+                               <option value="libras">Libras</option>
+                               <option value="kilos">Kilos</option>
+                            </select>
+                        </form>
+                        <input type="number" value="0" min="0" max="10" step="1">
+                        <p class="precio">$200 <span class="u-pull-right ">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar Al Carrito</a>
+                    </div>
+                </div>
+
+                <!--<div id="foto"><img src="images/FRUTAS-17.png"></div>
                 <div id="titulo"><p><strong>Aguacate</strong></p></div>
                 <div id="descripcion">
                     <p>Cremoso y versátil, con grasas saludables. Perfecto para ensaladas, tostadas y guacamole.</p>
-                    <br> <br>
-
-                    <div id="botones">
-                        <a href="#"><img src="images/colores3.jpeg"></a>
-
-                    </div>
                     <div id="abajo">
-                        540 USD
-                        <div id="carrito"><a href="button input agregar-carrito" data-id="7"><img src="images/carrito-de-compras.png"></a></div>
+                        
+                        <p>$30.000 COP</p>
+                        <form action="#">
+                            <label for="lang">Cantidad</label>
+                            <select name="Cantidad" id="lang">
+                              <option value="libras">Libras</option>
+                              <option value="kilos">Kilos</option>
+                            </select>
+                      </form>
+                        <button type="button" id="minus-button">-</button>
+                        <input type="number" value="0" min="0" max="10" step="1">
+                        <button type="button" id="plus-button">+</button>
+                        <div id="carrito-aguacate"><img src="images/carrito-de-compras.png"></a></div>
                     </div>
-                </div>
+                </div>-->
             </div>
             <div id="ccinco">
-                <div id="foto"><img src="images/FRUTAS-18.png"></div>
-                <div id="tallas"><a href="#"><img src="images/tallas.jpeg"></a></div>
+                <div class="card">
+                    <img src="images/FRUTAS-18.png" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Uva Morada</h4>
+                        <p>Pequeña y jugosa, con un dulzor natural. Excelente fuente de antioxidantes y resveratrol.</p>
+                        <form action="#">
+                            <label for="lang">Cantidad</label>
+                            <select name="Cantidad" id="lang">
+                               <option value="libras">Libras</option>
+                               <option value="kilos">Kilos</option>
+                            </select>
+                        </form>
+                        <input type="number" value="0" min="0" max="10" step="1">
+                        <p class="precio">$200 <span class="u-pull-right ">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar Al Carrito</a>
+                    </div>
+                </div>
+
+                <!--<div id="foto"><img src="images/FRUTAS-18.png"></div>
                 <div id="titulo"><p><strong>Uva Morada</strong></p></div>
                 <div id="descripcion">
                     <p>
                         Pequeña y jugosa, con un dulzor natural. Excelente fuente de antioxidantes y resveratrol.
                     </p>
-                    <br> <br>
-
-                    <div id="botones">
-                        <a href="#"><img src="images/colores2.jpeg"></a>
-                    </div>
                     <div id="abajo">
-                        320 USD
-                        <div id="carrito"><a href="button input agregar-carrito" data-id="8"><img src="images/carrito-de-compras.png"></a></div>
+                        
+                        <p>$30.000 COP</p>
+                        <form action="#">
+                            <label for="lang">Cantidad</label>
+                            <select name="Cantidad" id="lang">
+                              <option value="libras">Libras</option>
+                              <option value="kilos">Kilos</option>
+                            </select>
+                      </form>
+                        <button type="button" id="minus-button">-</button>
+                        <input type="number" value="0" min="0" max="10" step="1">
+                        <button type="button" id="plus-button">+</button>
+                        <div id="carrito-uva"><img src="images/carrito-de-compras.png"></a></div>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
         <div id="tres">
@@ -276,76 +451,170 @@
 
             </div>
             <div id="cdos">
-
-                <div id="foto"><img src="images/FRUTAS-19.png"></div>
-                <div id="tallas"><a href="#"><img src="images/tallas.jpeg"></a></div>
+                <div class="card">
+                    <img src="images/FRUTAS-19.png" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Papaya</h4>
+                        <p>Suave y dulce, ideal para el sistema digestivo. Rica en enzimas naturales y vitamina C.</p>
+                        <form action="#">
+                            <label for="lang">Cantidad</label>
+                            <select name="Cantidad" id="lang">
+                               <option value="libras">Libras</option>
+                               <option value="kilos">Kilos</option>
+                            </select>
+                        </form>
+                        <input type="number" value="0" min="0" max="10" step="1">
+                        <p class="precio">$200 <span class="u-pull-right ">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar Al Carrito</a>
+                    </div>
+                </div>
+                <!--<div id="foto"><img src="images/FRUTAS-19.png"></div>
                 <div id="titulo"><p><strong>Papaya</strong></p></div>
                 <div id="descripcion">
                     <p>Suave y dulce, ideal para el sistema digestivo. Rica en enzimas naturales y vitamina C.</p>
-                    <br> <br>
-
-                    <div id="botones">
-                        <a href="#"><img src="images/colores3.jpeg"></a>
-                    </div>
                     <div id="abajo">
-                        75 USD
-                        <div id="carrito"><a href="button input agregar-carrito" data-id="9"><img src="images/carrito-de-compras.png"></a></div>
+                        <p>$30.000 COP</p>
+                        <form action="#">
+                            <label for="lang">Cantidad</label>
+                            <select name="Cantidad" id="lang">
+                              <option value="libras">Libras</option>
+                              <option value="kilos">Kilos</option>
+                            </select>
+                      </form>
+                        <button type="button" id="minus-button">-</button>
+                        <input type="number" value="0" min="0" max="10" step="1">
+                        <button type="button" id="plus-button">+</button>
+                        <div id="carrito-papaya"><img src="images/carrito-de-compras.png"></a></div>
                     </div>
-                </div>
+                </div>-->
+
             </div>
             <div id="ctres">
-                <div id="foto"><img src="images/FRUTAS-20.png"></div>
-                <div id="tallas"><a href="#"><img src="images/tallas.jpeg"></a></div>
+
+                <div class="card">
+                    <img src="images/FRUTAS-20.png" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Sandía</h4>
+                        <p>Refrescante y jugosa, con un alto contenido de agua. Perfecta para hidratarse y rica en antioxidantes como el licopeno.</p>
+                        <form action="#">
+                            <label for="lang">Cantidad</label>
+                            <select name="Cantidad" id="lang">
+                               <option value="libras">Libras</option>
+                               <option value="kilos">Kilos</option>
+                            </select>
+                        </form>
+                        <input type="number" value="0" min="0" max="10" step="1">
+                        <p class="precio">$200 <span class="u-pull-right ">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="10">Agregar Al Carrito</a>
+                    </div>
+                </div>
+               <!-- <div id="foto"><img src="images/FRUTAS-20.png"></div>
                 <div id="titulo"><p><strong>Sandía </strong></p></div>
                 <div id="descripcion">
                     <p>
                         Refrescante y jugosa, con un alto contenido de agua. Perfecta para hidratarse y rica en antioxidantes como el licopeno.
                     </p>
-                    <br> <br>
-
-                    <div id="botones">
-                        <a href="#"><img src="images/colores.jpeg"></a>
-
-                    </div>
                     <div id="abajo">
-                        109 USD
-                        <div id="carrito"><a href="button input agregar-carrito" data-id="10"><img src="images/carrito-de-compras.png"></a></div>
+                        
+                        <p>$30.000 COP</p>
+                        <form action="#">
+                            <label for="lang">Cantidad</label>
+                            <select name="Cantidad" id="lang">
+                              <option value="libras">Libras</option>
+                              <option value="kilos">Kilos</option>
+                            </select>
+                      </form>
+                        <button type="button" id="minus-button">-</button>
+                        <input type="number" value="0" min="0" max="10" step="1">
+                        <button type="button" id="plus-button">+</button>
+                        <div id="carrito-sandia"><img src="images/carrito-de-compras.png"></a></div>
                     </div>
                 </div>
+                -->
+
+
             </div>
             <div id="ccuatro">
-                <div id="foto"><img src="images/FRUTAS-21.png"></div>
-                <div id="tallas"><a href="#"><img src="images/tallas.jpeg"></a></div>
+                <div class="card">
+                    <img src="images/FRUTAS-21.png" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Maracuyá</h4>
+                        <p>Exótica y aromática, con un sabor dulce y ácido. Rica en vitamina C y antioxidantes, ideal para jugos, postres y refrescos naturales.</p>
+                        <form action="#">
+                            <label for="lang">Cantidad</label>
+                            <select name="Cantidad" id="lang">
+                               <option value="libras">Libras</option>
+                               <option value="kilos">Kilos</option>
+                            </select>
+                        </form>
+                        <input type="number" value="0" min="0" max="10" step="1">
+                        <p class="precio">$200 <span class="u-pull-right ">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar Al Carrito</a>
+                    </div>
+                </div>
+
+                <!--<div id="foto"><img src="images/FRUTAS-21.png"></div>
                 <div id="titulo"><p><strong>Maracuyá </strong></p></div>
                 <div id="descripcion">
                     <p>Exótica y aromática, con un sabor dulce y ácido. Rica en vitamina C y antioxidantes, ideal para jugos, postres y refrescos naturales.</p>
-                    <br> <br>
-
-                    <div id="botones">
-                        <a href="#"><img src="images/colores2.jpeg"></a>
-                    </div>
+                    
                     <div id="abajo">
-                        55 USD
-                        <div id="carrito"><a href="button input agregar-carrito" data-id="11"><img src="images/carrito-de-compras.png"></a></div>
+                        
+                        <p>$30.000 COP</p>
+                        <form action="#">
+                            <label for="lang">Cantidad</label>
+                            <select name="Cantidad" id="lang">
+                              <option value="libras">Libras</option>
+                              <option value="kilos">Kilos</option>
+                            </select>
+                      </form>
+                        <button type="button" id="minus-button">-</button>
+                        <input type="number" value="0" min="0" max="10" step="1">
+                        <button type="button" id="plus-button">+</button>
+                        <div id="carrito-maracuya"><img src="images/carrito-de-compras.png"></a></div>
                     </div>
-                </div>
+                </div>-->
             </div>
             <div id="ccinco">
-                <div id="foto"><img src="images/FRUTAS-35.png"></div>
-                <div id="tallas"><a href="#"><img src="images/tallas.jpeg"></a></div>
+
+                <div class="card">
+                    <img src="images/FRUTAS-35.png" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Melón</h4>
+                        <p>Dulce y jugoso, con un alto contenido de agua. Ideal para hidratarse y rico en vitaminas A y C. Perfecto para ensaladas de frutas y jugos refrescantes.</p>
+                        <form action="#">
+                            <label for="lang">Cantidad</label>
+                            <select name="Cantidad" id="lang">
+                               <option value="libras">Libras</option>
+                               <option value="kilos">Kilos</option>
+                            </select>
+                        </form>
+                        <input type="number" value="0" min="0" max="10" step="1">
+                        <p class="precio"><span class="u-pull-right ">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar Al Carrito</a>
+                    </div>
+                </div>
+                <!--<div id="foto"><img src="images/FRUTAS-35.png"></div>
                 <div id="titulo"><p><strong>Melón</strong></p></div>
                 <div id="descripcion">
                     <p>Dulce y jugoso, con un alto contenido de agua. Ideal para hidratarse y rico en vitaminas A y C. Perfecto para ensaladas de frutas y jugos refrescantes.</p>
-                    <br> <br>
 
-                    <div id="botones">
-                        <a href="#"><img src="images/colores2.jpeg"></a>
-                    </div>
                     <div id="abajo">
-                        55 USD
-                        <div id="carrito"><a href="button input agregar-carrito" data-id="12"><img src="images/carrito-de-compras.png"></a></div>
+                        
+                        <p>$30.000 COP</p>
+                        <form action="#">
+                            <label for="lang">Cantidad</label>
+                            <select name="Cantidad" id="lang">
+                              <option value="libras">Libras</option>
+                              <option value="kilos">Kilos</option>
+                            </select>
+                      </form>
+                        <button type="button" id="minus-button">-</button>
+                        <input type="number" value="0" min="0" max="10" step="1">
+                        <button type="button" id="plus-button">+</button>
+                        <div id="carrito-melon"><img src="images/carrito-de-compras.png"></a></div>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
         
@@ -356,44 +625,6 @@
     <div id="footer">
 
         <div id="horizontal"><img src="images/lineas-01.jpg"></div>
-        <div id="footer_escondido">
-            <div class="uk-width-1-2@s uk-width-2-5@m">
-                <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
-                    <li class="uk-active"><a href="#"></a></li>
-                    <li class="uk-parent">
-                        <a href="#">Contact Us</a>
-                        <ul class="uk-nav-sub">
-                            <li><a href="#">customercare@nudiejeans.com</a></li>
-
-                        </ul><br>
-                    </li>
-                    <li class="uk-parent">
-                        <a href="#"><img src="images/logo%20n%20j.jpg" alt="logo"></a>
-                        <ul class="uk-nav-sub">
-                            <li>
-                                <a href="#">
-                                    Nudie jeans co
-                                    Nudie jenas Marketing AB, c/o Korallen AB <br>
-                                    Alandsgatan 10,50441 Boras
-                                    Suecia
-                                </a>
-                            </li>
-
-                        </ul>
-                    </li>
-                    <li class="uk-parent">
-                        <a href="#">Siguenos</a>
-                        <ul class="uk-nav-sub">
-                            <li><a href="#"><div id="facebook"><a href="#"><img src="images/facebook.png" alt="facebook"></a></div></a></li>
-                            <li><a href="#"><div id="pinterest"><a href="#"><img src="images/pinterest.png" alt="pinterest"></a></div></a></li>
-                            <li><a href="#"><div id="twitter"><a href="#"><img src="images/twitter.png" alt="twitter"></a></div></a></li>
-                            <li><a href="#">  <div id="whatsapp"><a href="#"><img src="images/whatsapp.png" alt="whatsapp"></a></div></a></li>
-                            <li><a href="#"><div id="instagram"><a href="#"><img src="images/instagram.png" alt="instagram"></a></div></a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
         <div id="footarriba">
 
             <div id="fizq">
@@ -434,5 +665,6 @@
 
     <script src="js/uikit.js"></script>
     <script src="js/uikit-icons.js"></script>
+    <script src="js/todo.js"></script>
 </body>
 </html>
