@@ -1,0 +1,1983 @@
+
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right:0;
+
+    top:100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
+.agregar-carrito {
+    margin:10px 0;
+    
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  td,
+  th {
+    padding: 0;
+  }
+  thead {
+    display: table-header-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+.borrar-curso {
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+
+
+*/
+    .login {
+    margin: 20px auto;
+    width: 300px;
+   
+    }
+    .login-screen {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px
+
+    }
+    .login a {
+        text-align: center;
+        }
+    
+    .app-title {
+    text-align: center;
+    color: #154902;
+    padding-bottom: 20px;
+    }
+    .app-title h1 {
+        text-align: center;
+        color: #154902;
+        
+        }
+    .login-form {
+    text-align: center;
+    }
+    .control-group {
+    margin-bottom: 10px;
+    }
+    
+    .login input {
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    width: 250px;
+    transition: border .5s;
+    }
+    
+    input:focus {
+    border: 2px solid #154902;
+    box-shadow: none;
+    }
+    
+    .login .btn {
+      border: 2px solid transparent;
+      background: #154902;
+      color: #ffffff;
+      font-size: 16px;
+      line-height: 25px;
+      padding: 10px 0;
+      text-decoration: none;
+      text-shadow: none;
+      border-radius: 10px;
+      box-shadow: none;
+      transition: 0.25s;
+      display: block;
+      width: 250px;
+      margin: 0 auto;
+      position:static;
+    }
+    
+    .login .btn:hover {
+      background-color: #88BC8B;
+    }
+    
+    .login-link {
+      font-size: 12px;
+      color: #444;
+      display: block;
+      margin-top: 12px;
+      text-align: center;
+    }               
+    
+body{
+    margin: 0%;
+  }
+  #btnMenu {
+    display: none;
+}
+header{
+    background-color: #88BC8B;
+    padding: 15px 60px;
+    font-family: 'Lato', sans-serif;
+    color:white;
+    font-size: 12px;
+}
+.contenedortop{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    vertical-align: center;
+    width: 90%;
+    justify-content: right;
+    margin: auto;
+}
+.contenedortop ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.contenedortop ul li{
+    list-style: none;
+    padding: 0px 10px 10px 10px;
+}
+.contenedortop ul li a{
+    text-decoration: none;
+    color: white;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+.contenedor ul{
+    justify-content: center;
+    list-style: none;
+}
+.contenedor .bmenu .item{
+    float: left;
+    display: block;
+}
+.contenedor ul li a{
+    text-decoration: none;
+    color: white;
+    display: block
+}
+.logo img{
+    width: 250px;
+    justify-content: center;
+    padding: 0px 30px;
+}
+.bmenu{
+    position: relative;
+    z-index: 99999;
+}
+.bmenu li a{
+    display: block;
+    padding: 0px 10px;
+}
+.bmenu .item{
+    position: relative;
+    border-bottom: transparent solid 2px;
+}
+.bmenu .item a{
+    display: block;
+    padding-bottom: 10px;
+}
+.bmenu .desple{
+    display: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background-color: #212D47;
+}
+.bmenu .desple a{
+    padding: 10px;
+    margin: 10px;
+    border-bottom: transparent 2px solid;
+}
+.bmenu .desple a:hover{
+    border-bottom: white 2px solid;
+}
+.bmenu .item:hover .desple{
+    display: block;
+}
+.bmenu .item:hover{
+    border-bottom: white solid 2px;
+}
+.buscar{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.buscar input{
+    width: 100%;
+    background-color: #3C4767;
+    color: white;
+    text-align: left;
+    padding: 5px;
+    border-radius: 0px;
+    outline: none;
+}
+.btn{
+    position: absolute;
+    width: 15%;
+    text-align: right;
+    padding: 0px 10px;
+}
+.btn a{
+    color: white;
+}
+
+/* HEADER */
+
+.titulocontacto{
+    background-color: #C2D0DA;
+    font-family: 'DM Serif Text';
+    font-size: 28;
+    padding: 20px, 500px;
+    margin: 0px;
+}
+.titulocontacto h1{
+    color: #212D47;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    text-align: left;
+    padding: 20px 0px;
+}
+.ubicacion{
+    width: 90%;
+    justify-content: center;
+}
+.ubicacion h2{
+    color: #212D47;
+    width: 90%;
+    justify-content: center;
+    text-align: left;
+    font-family: 'DM Serif Text';
+    padding-left: 0px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+.ubicacion p{
+    color: #212D47;
+    font-style: normal;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    padding-left: 65px;
+    padding-bottom: 20px;
+}
+.ubicacion iframe{
+    width: 100%;
+    height: 600px;
+    padding-left: 65px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.preguntas{
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+}
+.preguntas h2{
+    color: #212D47;
+    font-style: normal;
+    text-align: left;
+    font-family: 'DM Serif Text';
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.preguntas p{
+    color: #212D47;
+    font-style: normal;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+}
+.formulario{
+    background-color: #E1E8ED;
+    font-family: 'Lato', sans-serif;
+    font-size: small;
+    color: #212D47;
+}
+.formularioarriba {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.formularioarriba form input{
+    width: 350px;
+    height: 30px;
+    background-color: #C2D0DA;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+.formularioarriba form h4{
+    margin-bottom: 5px;
+}
+.formularioabajo {
+    padding: 20px;
+    padding-top: 0px;
+}
+.formularioabajo form input{
+    width: 100%;
+    margin: auto;
+    height: 100px;
+    background-color: #C2D0DA;
+    border: none;
+}
+.formularioabajo form h4{
+    margin-bottom: 5px;
+}
+.formularioenviar {
+    padding: 20px;
+    padding-top: 0px;
+}
+.formularioenviar form input{
+    width: 20%;
+    height: 50px;
+    background-color: #212D47;
+    color: #C2D0DA;
+    border: none;
+    font-weight: 600;
+}
+.headerrepacion{
+    background-image: url(../images/Fotos\ Nudie\ Jeans-11.png);
+    background-size: cover;
+    min-height: 700px;
+    background-repeat: no-repeat;
+}
+.headerrepacion h1{
+    color: #C2D0DA;
+    font-family: 'DM Serif Text';
+    text-align: center;
+    vertical-align: center;
+    padding-top: 150px;
+    padding-bottom: 10px;
+    font-size: 65px;
+    margin: 0px;
+}
+.headerrepacion p{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: center;
+    padding-top: 0px;
+    word-wrap: break-word;
+    padding: 0px 200px;
+}
+.reparacion{
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    justify-content: space-between;
+}
+.reparacion h2{
+    justify-content: center;
+    color: #212D47;
+    font-family: 'DM Serif Text';
+    font-size: 28px;
+    padding-top: 50px;
+}
+.reparacionspc{
+    display: flex;
+    align-items: top;
+    align-content: top;
+    margin: auto;
+    vertical-align: center;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.reparacionspc h4{
+    color: #212D47;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 23px;
+    margin: 20px;
+}
+.reparacionspc p{
+    max-width: 250px;
+    font-family: 'Lato', sans-serif;
+    color: #212D47;
+    font-size: 12px;
+    line-height: 16px;
+    word-wrap: break-word;
+    text-align: center;
+    align-items: center;
+    vertical-align: center;
+    margin: auto;
+}
+.reparacionspc img{
+    width: 250px;
+}
+.continentes{
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    font-family: 'DM Serif Text';
+    font-size: 65px;
+    vertical-align: middle;
+    margin-top: 100px;
+}
+.continentes .oceania{
+    background-image: url(../images/oceania.png);
+    background-size: cover;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    vertical-align: middle;
+    padding-top: 170px;
+}
+.continentes .oceania a{
+    text-decoration: none;
+    color: #E1E8ED;
+    vertical-align: middle;
+}
+.continentes .europa{
+    background-image: url(../images/europa.png);
+    background-size: cover;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    vertical-align: middle;
+    padding-top: 170px;
+}
+.continentes .europa a{
+    text-decoration: none;
+    color: #E1E8ED;
+    vertical-align: middle;
+}
+.continentes .asia{
+    background-image: url(../images/asia.png);
+    background-size: cover;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    vertical-align: middle;
+    padding-top: 170px;
+}
+.continentes .asia a{
+    text-decoration: none;
+    color: #E1E8ED;
+    vertical-align: middle;
+}
+.continentes .norteamerica{
+    background-image: url(../images/norteamerica.png);
+    background-size: cover;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    vertical-align: middle;
+    padding-top: 170px;
+}
+.continentes .norteamerica a{
+    text-decoration: none;
+    color: #E1E8ED;
+    vertical-align: middle;
+}
+.productoshome{
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    justify-content: space-between;
+}
+.productoshome h2{
+    justify-content: center;
+    color: #212D47;
+    font-family: 'DM Serif Text';
+    font-size: 28px;
+    padding-top: 50px;
+}
+.productosspc{
+    display: flex;
+    align-items: top;
+    align-content: top;
+    margin: auto;
+    vertical-align: center;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.productosspc h4{
+    color: #212D47;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 23px;
+    margin: 20px;
+}
+.productosspc p{
+    max-width: 250px;
+    font-family: 'Lato', sans-serif;
+    color: #212D47;
+    font-size: 12px;
+    line-height: 16px;
+    word-wrap: break-word;
+    text-align: center;
+    align-items: center;
+    vertical-align: center;
+    margin: auto;
+}
+.productosspc img{
+    width: 250px;
+}
+.videohome{
+    margin: 100px 0px 0px 0px;
+    text-align: center;
+    padding: 50px;
+    background-color: #C2D0DA;
+}
+.videohome iframe{
+    width: 80%;
+    height: 300px;
+}
+.journal{
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.journal h2{
+    justify-content: center;
+    color: #212D47;
+    font-family: 'DM Serif Text';
+    font-size: 28px;
+    padding-top: 50px;
+}
+.journalspc{
+    display: flex;
+    align-items: top;
+    align-content: top;
+    margin: auto;
+    vertical-align: center;
+    text-align: left;
+    justify-content: center;
+    justify-content: space-between;
+}
+.journalspc h3{
+    color: #212D47;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    max-width: 350px;
+    word-wrap: break-word;
+    font-weight: 800;
+    font-size: 20px;
+}
+.journalspc p{
+    font-family: 'Lato', sans-serif;
+    color: #212D47;
+    font-size: 12px;
+    line-height: 16px;
+    max-width: 350px;
+    word-wrap: break-word;
+    text-align: left;
+    align-items: left;
+    margin: 0;
+}
+.journalspc img{
+    width: 370px;
+}
+.nlhome{
+    background-image: url(../images/banner3.jpg);
+    background-size: cover;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    vertical-align: middle;
+    padding-top: 150px;
+    text-align: center;
+}
+    .nlhome h2 {
+        color: black;
+        font-family: 'DM Serif Text';
+        font-size: 45px;
+        margin: 0;
+        text-align: center;
+    }
+.nlhome p{
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+    .nlhome form input {
+        background-color: black;
+        font-family: 'Lato', sans-serif;
+        border: none;
+        height: fit-content;
+        font-size: 16px;
+        border-radius: 0;
+        padding: 10px;
+        margin: 10px 0px;
+    }
+.nlhome form input[type="button"]{
+    background-color: #C2D0DA;
+    color: #212D47;
+}
+.sliding-banner-item .content{
+    vertical-align: middle;
+    text-align: center;
+}
+.sliding-banner-item .content h1{
+    color: white;
+    font-family: 'DM Serif Text';
+    font-size: 70px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 250px;
+    margin: 0;
+}
+.sliding-banner-item .content p{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 16px;
+    word-wrap: break-word;
+}
+/*COMPRAS */ 
+#banner_mujeres
+{
+    width: 100%;
+    
+    background-image: url(../images/recursos\ fruver-22.png);
+    background-attachment: fixed;
+    display: inline-block;
+    background-size: cover;
+    max-width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+}
+#banner_hombres
+{
+    width: 100%;
+    background-image: url(../images/banner2-34.png);
+    background-attachment: fixed;
+    display: inline-block;
+    background-size: cover;
+    max-width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+}
+#banner_hombres p, #banner_mujeres p, #banner_faqs p
+{
+  color: white;
+    font-family: 'DM serif Text', serif;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 90px;
+
+   
+}
+
+#estilos
+{
+   
+   height: 150px;  
+    min-width: 100%;
+}
+#estilos_mujer
+{
+    height: 200px;
+    min-width: 100%;
+    
+}
+#estilos img, #estilos_mujer img
+{
+    max-width: 100%;
+    height: auto;
+    min-width: 100%;
+}
+#cuno li
+{
+    list-style: none;
+    text-align: center;
+}
+#foto img
+{
+    height: 267px;
+}
+
+#cuno, #cdos, #ctres, #ccuatro, #ccinco
+{
+    
+ width: 260px;
+ display: inline-block;
+ border-radius: 10px;
+ margin: 10px;
+ padding-bottom: 80px;
+ padding-left: 20px;
+ vertical-align: top;
+
+}
+#cuno{
+    border-color: black;
+    border-radius: 2px;
+    vertical-align: top;
+}
+#cuno a
+{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+     font-size: 16px;
+    text-align: center;
+    color: black;
+    padding: 20px;
+    padding-right: 20px;
+}
+
+#lista
+{
+    border: Black 2px solid;
+    padding-right: 38px;
+}
+#top
+{
+    border: Black 2px solid;
+    padding: 10px;
+}
+#uno, #dos, #tres, #cuatro, #cinco
+{
+    padding-left: 12px;
+    
+}
+#cinco 
+{
+    padding-bottom: 50px;
+}
+#cuno p, #cdos p, #ctres p, #ccuatro p, #ccinco p
+{
+ font-family: 'Lato', sans-serif;
+ font-size: 13px;
+ text-align: center;
+ width: 200px;
+ display: inline-block;
+ color: black;
+ 
+}
+
+
+#cuno img, #cdos img, #ctres img, #ccuatro img, #ccinco img
+{
+    
+    width: 200px;
+ display: inline-block;
+}
+
+#top img
+{
+    width: 80px;
+    padding-top: 10px;
+}
+#top p
+{
+    width: 80px;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    font-size: 13px;
+ }
+#tallas img 
+{
+    width: 150px;
+    padding-left: 40px;
+}
+#botones img 
+{
+    width: 200px;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+#titulo
+{
+   font-size: 16px;
+   font-family: 'DM serif Text', sans-serif;
+   
+   padding-top: 10px;
+}
+#titulo a
+{
+    font-size: 16px;
+   font-family: 'DM serif Text', sans-serif;
+   text-align: center; 
+    padding-right: 30px;
+}
+
+#descripcion p
+{
+    width: 200px;
+    color:black;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+#minus-button button, #plus-button button {
+    background-color:#88BC8B;
+    border: none;
+    padding: 6px 10px;
+  }
+form
+{
+    text-align: center;
+}
+#abajo 
+{
+    display: inline-block;
+  
+}
+#carrito  
+{
+   
+    display: inline-block;
+   
+}
+#carrito 
+{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    vertical-align: middle;
+}
+
+#carrito img 
+{
+    width: 50px;
+    display: inline-block;
+    padding-left: 10px;
+}
+#ladoderecho
+{
+    display: inline-block;
+   width: 80px;
+    vertical-align: top;
+}
+#menu_escondido
+{
+    display: none;
+}
+#footer_escondido 
+{
+    display: none;
+}
+#textos
+{
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    color: black;
+    font-size: 18px;
+
+ }
+
+h3
+{
+    color:#640303 ;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+/*BLOG*/ 
+
+#banner_blog 
+{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    background-color: #c2d0da;
+    display: inline-block;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+#banner_blog p
+{
+    color: #212d47;
+    font-family: 'DM serif Text', serif;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+table
+{
+     border: 1px solid #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    border-top: 50px;
+}
+th
+{
+    background-color: #c2d0da;
+    color: #212d47;
+    font-family: 'DM serif Text', serif;
+    text-align: center;
+    font-size: 18px;
+}
+td
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#tablas 
+{
+   width: 300px; 
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 30px;
+    padding-top: 100px;
+}
+#articulos
+{
+    width: 800px;
+    display: inline-block;
+    padding-left: 80px;
+    padding-top: 100px;
+}
+
+#img3
+{
+    padding-left: 50px;
+}
+#img4
+{
+    padding-left: 45px;
+}
+#img5
+{
+    padding-left: 60px;
+}
+#lineas img
+{
+    width: 800px;
+}
+#lineas
+{
+    padding-right: 60px;
+}
+#tablas img
+{
+    width: 10px;
+    display: inline-block;
+}
+/* FAQS */
+#banner_faqs
+{
+ width: 100%;
+    background-image: url(../images/Banner-%20faqs.jpg);
+    background-attachment: fixed;
+    display: inline-block;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    
+    
+}
+#principal img 
+{
+    width: 20px;
+    display: inline-block;
+    padding-right: 20px;
+}
+#principal
+{
+    width: 1000px;
+    padding-left: 150px;
+}
+#primero, #segundo, #tercero, #cuarto
+{
+    display: inline-block;
+    height: 280px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+}
+#izq, #cen , #dere
+{
+ width: 300px;
+ display: inline-block;
+ border-radius: 10px;
+ margin: 10px;
+ margin-left: 20px;
+ 
+ vertical-align: top; 
+}
+#izq img , #cen img , #dere img
+{
+    
+ width: 300px;
+ display: inline-block;
+
+}
+#barras
+{
+    padding-left: 120px;
+       margin-top: 40px;
+    
+}
+#barra1
+{
+    padding-left: 60px;
+    margin-bottom: 40px;
+}
+/* NUDIE */
+#banner_nudie
+{
+ width: 100%;
+    
+    background-image: url(../images/banner-thisisnudie-jeans.png.png);
+    background-attachment: fixed;
+    display: inline-block;
+    background-size: cover;
+    padding-top: 70px;
+    max-width: 100%;
+    height: auto;
+    
+}
+#banner_nudie p
+{
+    color: white;
+    font-family: 'DM serif Text', serif;
+    font-size: 80px;
+    text-align: center;
+  
+    
+}
+.banner-subtitle 
+{
+    font-size: 20px;
+    color: white;
+    font-family: 'Lato', serif;
+display: inline-block;
+    text-align: center;
+    padding-left: 200px
+}
+#textos 
+{
+    font-size: 20px;
+    color: black;
+    font-family: 'Lato', serif;
+    display: inline-block;
+    width: 1000px;
+    margin-left: 13%;
+}
+h1
+{
+    font-family: 'DM serif Text', serif;
+    font-size: 80px;
+    text-align: center;
+
+}
+#titulos_nudie
+{
+    color: black;
+    font-family: 'DM serif Text', serif;
+    font-size: 50px;
+    text-align: left;
+    padding: 30px;
+    
+}
+#im1 img, #im2 img, #im3 img, #im4 img
+{
+    width: 270px;
+ 
+    height: 200px;
+}
+#im1, #im2, #im3, #im4
+{
+    width: 230px;
+    display: inline-block;
+}
+#las4
+{
+    padding-left: 30px;
+}
+#azul 
+{
+    width: 800px;
+    color: #6a9ab1;
+    font-family: 'Lato', serif;
+    border: 2px solid #6a9ab1;
+    margin-left: 70px;
+    padding: 10px;
+    text-align: center;
+}
+/*button
+{
+    width: 300px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    margin-left: 350px;
+    font-family: 'Lato', serif;
+}*/
+#joakin 
+{
+    padding-left: 100px;
+}
+/*SOSTENIBILIDAD */
+
+#banner_soste
+{
+    width: 100%;
+    background-color: #c2d0da;
+    background-attachment: fixed;
+    display: inline-block;
+    background-size: cover;
+    padding-top: 70px;
+    max-width: 100%;
+    height: auto;
+}
+#banner_soste p
+{
+    color: #212d47;
+    font-family: 'DM serif Text', serif;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 30px;
+
+}
+.izquierda, .centro , .derecha
+{
+ width: 370px;
+ display: inline-block;
+ border-radius: 10px;
+ margin: 10px;
+ margin-left: 30px;
+ vertical-align: top; 
+}
+.izquierda img , .centro img , .derecha img
+{
+    
+ width: 370px;
+ display: inline-block;
+
+}
+.uno p, .dos p, .tres p, .cuatro p, .cinco p, .seis p
+{
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    color: black;
+    font-size: 16px;
+
+}
+.uno, .dos, .tres, .cuatro, .cinco, .seis
+{
+    padding-left: 20px;
+}
+h2
+{
+    font-family: 'DM serif Text', serif;
+    text-align: left;
+    color: black;
+    margin: 15%;
+}
+#titulo_soste
+{
+    font-family: 'DM serif Text', serif;
+    text-align: center;
+    color: black;
+   font-size: 40px;
+    margin: 5%;
+}
+/* FOOTER */
+#footer
+{
+    
+    color: white; 
+    width: 100%;
+    vertical-align: bottom;
+    display: inline-block;
+    margin-right: 0px;
+    padding-top: 20px;
+}
+#titulos_footer
+{
+   font-size: 19px;
+   font-family: 'DM serif Text', serif;
+   text-align: center;    
+  color: #212d47;
+}
+#vertical, #vertical img
+{
+    width: 15px;
+    height: 90px;
+    display: inline-block;
+}
+#horizontal, #horizontal img
+{
+    
+    
+    display: inline-block;
+}
+h5
+{
+    text-align: center;
+}
+#fizq {
+    width: 500px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: text-bottom;
+}
+#footabajo p, #footarriba p
+{
+    text-align: center;
+    color: #212d47;
+    font-family: 'Lato', sans-serif;
+}
+#fizq p
+{
+    display: inline-block;
+    color: #212d47;
+}
+#centro {
+    width: 500px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: text-bottom;
+}
+#logo
+{
+ width: 200px;
+display: inline-block;
+    
+}
+#logo img 
+{
+    display: inline-block;
+    width: 200px;
+   vertical-align: middle;
+}
+#fdere {
+    width: 500px;
+    height: 100px;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+ #instagram, #facebook, #pinterest, #whatsapp, #twitter 
+{
+    display: inline-block;
+    width:70px;
+    margin-left: 20px;
+    height: 100px;
+}
+ #instagram img, #facebook img, #pinterest img, #whatsapp img, #twitter img
+{
+     display: inline-block;
+    width: 40px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+   
+    
+}
+#instagram p, #facebook p
+{
+    text-align: center;
+}
+
+/* INICIO ESTILOS TABLETA */
+
+@media screen and (max-width: 768px) {
+    header{
+        padding: 0;
+        padding-bottom: 20px;
+        margin: auto;
+    }
+    .contenedortop{
+        size: 90%;
+        margin: auto;
+    }
+    .contenedor{
+        size: 90%;
+        margin: auto;
+    }
+    #btnMenu {
+        display: block;
+        font-size: 48px;
+        margin: 0;
+        padding: 0;
+    }
+    #menu {
+        display: none;
+    }
+    .mostrar {
+        display: block !important;
+    }
+    .contenedor ul{
+        margin: 0;
+        padding-left: 20px;
+        padding-right: 0;
+        flex-direction: column;
+        width: 75%;
+        transition: all 0.5s;
+    }
+    .contenedor .bmenu .item{
+        float: none;
+        display: block;
+    }
+    .contenedor ul li a{
+        text-decoration: none;
+        color: white;
+        display: block;
+        padding: 20px;
+    }
+    .logo img{
+        text-align: center;
+    }
+    .bmenu .desple{
+        z-index: 9999;
+        background-color: #212D47;
+        width: 130%;
+    }
+    .mostrar{
+        margin-left: 0;
+    }
+    .formularioarriba form h4{
+        margin-bottom: 5px;
+    }
+    .formularioabajo {
+        padding: 20px;
+        padding-top: 0px;
+    }
+    .formularioabajo form input{
+        width: 100%;
+    }
+    .formularioabajo form h4{
+        margin-bottom: 5px;
+    }
+    .formularioenviar {
+        padding: 20px;
+        padding-top: 0px;
+    }
+    .formularioenviar form input{
+        width: 200px;
+    }
+    .headerrepacion{
+        background-size: cover;
+        background-position: center;
+    }
+    .reparacionspc{
+        flex-wrap: wrap;
+    }
+    .reparacionspc p{
+        margin-bottom: 30px;
+    }
+    .continentes .oceania{
+        padding-top: 50px;
+        min-height: 200px;
+    }
+    .continentes .europa{
+        padding-top: 50px;
+        min-height: 200px;
+    }
+    .continentes .asia{
+        padding-top: 50px;
+        min-height: 200px;
+    }
+    .continentes .norteamerica{
+        padding-top: 50px;
+        min-height: 200px;
+    }  
+    .productosspc{
+        flex-wrap: wrap;
+    }
+    .productosspc h4{
+        font-size: 20px;
+    }
+    .productosspc p{
+        margin: 20px;
+    }
+    .journalspc{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .journalspc h3{
+        max-width: 500px;
+    }
+    .journalspc p{
+        margin-bottom: 20px;
+        max-width: 500px;
+    }
+    .journalspc img{
+        width: 500px;
+    }
+    .nlhome{
+        padding-top: 50px;
+    }
+    .nlhome h2{
+        font-size: 35px;
+    }
+    .nlhome p{
+        font-size: 13px;
+    }
+    .sliding-banner-item .content h1{
+        font-size: 40px;
+        text-align: center;
+        padding-top: 100px;
+    }
+    .sliding-banner-item .content p{
+        font-size: 13px;
+        padding: 0px 60px;
+    }
+    .container
+    {
+        max-width: 100%;
+    }
+    #estilos_mujer img
+    {
+       max-width: 100%;
+        
+    }
+    #banner_mujeres, #banner_nudie
+    {
+        max-width: 100%;
+         
+    }
+
+    
+                              
+                  
+    #compras
+    {
+        max-width: 100%;
+    }
+    #banner_hombres p, #banner_mujeres p, #banner_faqs p, #banner_nudie p, #banner_soste p
+    {
+        font-size: 60px;
+        padding-left: 0px;
+    }
+    .banner-subtitle
+    {
+        padding-left: 0px;
+    }
+    #textos p
+    {
+        width: 600px;
+       font-size: 18px;
+        
+    }
+    #textos
+    {
+        margin-left: 5%
+    }
+    #cuno, #cdos, #ctres, #ccuatro, #ccinco
+    {
+        width: 170px;
+    padding-left: 80px;
+    }
+    #botones img 
+    {
+    width: 150px;
+    display: inline-block;
+        margin: 10px;
+   }
+    #cuno 
+    {
+        display: none;
+    }
+     #menu_escondido
+    {
+        display: block;
+    }
+    #foto img
+    {
+        height: auto;
+    }
+    #tallas img
+    {
+    width: 150px;
+    padding-left: 20px;
+    padding-top: 10px;
+    }
+    #descripcion p
+    {
+        width: 180px;
+    }
+    #uno, #dos, #tres, #cuatro, #cinco
+    {
+            display: inline;
+    }
+  
+    .uk-parent
+    {
+        background-color: #c2d0da;
+    }
+    #barras, #barra1
+    {
+        padding-left: 0px;
+    }
+  
+    #primero, #segundo, #tercero, #cuarto
+    
+    {
+    display: inline;
+        margin-left: 0%;
+    }
+    #principal 
+    {
+        padding: 5%;
+        width: auto;
+    }
+    #las4 
+    {
+    padding-left: 30px;
+    width: 600px;
+     }
+    #azul 
+    {
+        margin-left: 3%;
+        width: 500px;
+            
+    }
+    #azul p
+    {
+        width: 500px;
+    }
+    #textos img 
+    {
+        width:500px;
+        margin-left: 3%;
+    }
+    #joakin 
+    {
+        padding-left: 0px;
+    }
+    #titulos_nudie
+    {
+            font-size: 40px;
+    }
+    button
+    {
+        margin-left: 15%;
+    }
+    .izquierda, .centro, .derecha
+    {
+        width: 260px;
+    }
+    .uno .izquierda p
+    {
+        padding-top: 35px;
+    }
+    .derecha 
+    {
+        margin: 5%;
+        margin-left: 30%;
+    }
+    
+    .tres .izquierda p
+    {
+       padding-top: 35px; 
+    }
+    table
+    {
+        width: 400px;
+        margin-left: 35%;
+    }
+    #articulos
+    {
+        width: 500px;
+        padding-left: 5%;
+    }
+    #img1 img, #img2 img, #img3 img, #img4 img, #img5 img
+    {
+        width: 500px;
+            padding-left: 15%;
+    }
+    #img5
+    {
+        padding-left: 0px;
+    }
+    #footer_escondido 
+    {
+    display: inline-block;
+    }
+    #footarriba
+    {
+      display: none;  
+    }
+    
+    #footer_escondido .uk-parent
+    {
+        background-color: white;
+    }
+    #footer_escondido .uk-parent img
+    {
+        width: 270px;
+    }
+    #instagram, #facebook, #pinterest, #whatsapp, #twitter
+    {
+        width: 50px;
+        display: inline;
+        margin-left: 30%;
+    }
+    #footer_escondido .uk-nav-sub li
+    { 
+        width: 50px;
+        display: inline-block;
+    }
+}
+   #horizontal, #horizontal img
+{
+    width: 1920;
+}
+   #logo img
+   {
+     width: 100px;
+   }
+@media (min-width: 640px)
+ 
+{
+ .uk-width-1-2\@s
+ {
+     width: auto;
+    }
+}
+/* FINAL ESTILOS TABLETA */
+/* INICIO ESTILOS CELULAR */
+
+@media screen and (max-width: 360px) {
+    .titulocontacto{
+        padding: 0px;
+        text-align: center;
+    }
+    .titulocontacto h1{
+        padding-left: 0px;
+        text-align: center;
+        margin: auto;
+    }
+    .ubicacion{
+        width: 80%;
+        margin: auto;
+        justify-content: center;
+    }
+    .ubicacion h2{
+        text-align: center;
+        font-size: xx-large;
+        margin: auto;
+        padding: 0;
+        padding-top: 30px;
+    }
+    .ubicacion p{
+        padding-left: 0;
+    }
+    .ubicacion iframe{
+        height: 400px;
+        width: 100%;
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+    .preguntas{
+        justify-content: center;
+        margin: auto;
+    }
+    .preguntas h2{
+        text-align: center;
+        padding: 0;
+    }
+    .formularioarriba form input{
+        max-width: 70px;
+    }
+    .formularioabajo form input{
+        width: 100%;
+    }
+    .formularioabajo form h4{
+        margin-bottom: 5px;
+    }
+    .formularioenviar {
+        padding: 20px;
+        padding-top: 0px;
+    }
+    .formularioenviar form input{
+        width: 100px;
+        height: 30px;
+    }
+    .headerrepacion h1{
+        font-size: 40px;
+    }
+    .headerrepacion p{
+        padding: 0px 50px;
+    }
+    .reparacion{
+        text-align: center;
+        margin-right: auto;
+        padding: 0;
+        align-content: center;
+    }
+    .reparacionspc{
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+    .reparacionspc p{
+        margin-bottom: 30px;
+    }
+    .continentes{
+        margin-top: 0;
+    }
+    .continentes .oceania{
+        background-size: cover;
+        background-position: center;
+        padding-top: 50px;
+        min-height: 160px;
+        margin: 20px 0px;
+    }
+    .continentes .oceania a{
+        font-size: 40px;
+    }
+    .continentes .europa{
+        background-size: cover;
+        background-position: center;
+        padding-top: 50px;
+        min-height: 160px;
+        margin: 20px 0px;
+    }
+    .continentes .europa a{
+        font-size: 40px;
+    }
+    .continentes .asia{
+        background-size: cover;
+        background-position: center;
+        padding-top: 50px;
+        min-height: 160px;
+        margin: 20px 0px;
+    }
+    .continentes .asia a{
+        font-size: 40px;
+    }
+    .continentes .norteamerica{
+        background-size: cover;
+        background-position: center;
+        padding-top: 50px;
+        min-height: 160px;
+        margin: 20px 0px;
+    }
+    .continentes .norteamerica a{
+        font-size: 40px;
+    }
+    .productoshome{
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        padding: 0;
+    }
+    .productosspc{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .productosspc h4{
+        font-size: 20px;
+    }
+    .productosspc p{
+        margin: 20px;
+    }
+    .videohome{
+        margin-top: 30px;
+    }
+    .journal{
+        justify-content: center;
+        align-content: center;
+        margin: auto;
+        padding: 0;
+    }
+    .journal h2{
+        text-align: center;
+    }
+    .journalspc{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .journalspc h3{
+        max-width: 300px;
+    }
+    .journalspc p{
+        margin-bottom: 20px;
+        max-width: 300px;
+    }
+    .journalspc img{
+        width: 300px;
+    }
+    .nlhome{
+        background-size: cover;
+        padding-top: 20px;
+        background-position: center;
+        padding-top: 150px;
+    }
+    .nlhome h2{
+        font-size: 25px;
+    }
+    .nlhome p{
+        font-size: 13px;
+        padding: 0px 20px;
+    }
+    .sliding-banner-item .content h1{
+        font-size: 25px;
+        text-align: center;
+        padding: 50px 70px;
+        line-height: 27px;
+    }
+    .sliding-banner-item .content p{
+        display: none;
+    }
+    #menu_escondido
+    {
+        display: block;
+    }
+    
+    #cuno, #cdos, #ctres, #ccuatro, #ccinco
+    {
+        width: 170px;
+    padding-left: 50px;
+        
+    }
+    #botones img 
+    {
+    width: 150px;
+    display: inline-block;
+        margin: 10px;
+   }
+    #menu_escondido
+    {
+        width: 200px;
+    margin-left: 50px;
+    }
+    #banner_hombres p, #banner_mujeres p, #banner_faqs p, #banner_nudie p, #banner_soste p
+    {
+        font-size: 40px;
+    }
+    #barras, #barra1
+    {
+        padding-left: 0px;
+    }
+    #barras
+    {
+        height: 1600px;
+    }
+    #barra1 img
+    {
+      padding-left: 0px;
+        
+    }
+    #principal 
+    {
+        width: 250px;
+        padding-left: 15px;
+    }
+    #principal a 
+    {
+        font-size: 15px;
+        font-family: 'Lato', sans-serif;
+    }
+    #textos p
+    {
+        font-size: 16px;
+        width: 300px;
+    }
+    #azul p
+    {
+        width: 280px;
+        font-size: 16px;
+    }
+    #las4 
+    {
+      padding-left: 30px;
+      width: 300px;
+     }
+    #azul 
+    {
+    margin-left: 0;
+    width: 280px;
+    }
+    #textos img 
+    {
+    width: 300px;
+    margin-left: 0%;
+    }
+    #titulos_nudie
+    {
+    font-size: 20px;
+     }
+    button {
+    margin-left: 0%;
+    }
+    
+    .uno .izquierda p
+    {
+        padding-top: 0px;
+    }
+    .derecha 
+    {
+       
+            margin-left: 6%;
+    }
+    
+    .tres .izquierda p
+    {
+       padding-top: 35px; 
+    }
+    .izquierda img, .centro img, .derecha img
+    {
+        width: 300px;
+    }
+    table
+    {
+        width: 300px;
+        margin-left: 0%;
+    }
+    #articulos
+    {
+        width: 300px;
+        padding-left: 5%;
+    }
+    #img1 img, #img2 img, #img3 img, #img4 img, #img5 img
+    {
+        width: 300px;
+            padding-left: 0%;
+    }
+    #img3 {
+    padding-left: 0px; 
+    }
+    #img5
+    {
+        padding-left: 0px;
+    }
+    #footer_escondido 
+    {
+    display: block;
+    }
+    #footarriba
+    {
+      display: none;  
+    }
+    
+}
+/* FINAL ESTILOS CELULAR */
