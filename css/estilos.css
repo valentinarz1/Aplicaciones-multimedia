@@ -8,11 +8,50 @@
     text-align: center;
     width: 200px;
     padding-top: 10px;
+    margin-bottom: 0px;
 }
 
+p .precio 
+{
+    width: 30px;
+}
+.button{
+   
+    background-color: #33C3F0;
+    border-color: #33C3F0;
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    color: #555;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.agregar-carrito {
+    margin: 10px 0;
+}
+.u-full-width {
+    width: 80%;
+    box-sizing: border-box;
+}
 
-
-
+#carrito h2{
+    
+    color: black;
+    font-family: 'Lato', serif;
+    text-align: center;
+    padding-top: 15px;
+}
 
 
 
@@ -61,11 +100,15 @@ table #carrito
  {
     padding: 0;
   }
-  thead #carrito {
+
+
+  thead {
     display: table-header-group;
     vertical-align: middle;
     unicode-bidi: isolate;
     border-color: inherit;
+    margin-left: 10px;
+    text-align: center;
 }
 .borrar-curso {
     background-color: red;
@@ -85,6 +128,7 @@ td {
     vertical-align: inherit;
     unicode-bidi: isolate;
 }
+
 
 
 
@@ -819,8 +863,7 @@ header{
  text-align: center;
  width: 200px;
  display: inline-block;
- color: black;
- margin-top: 0px;
+
  
 }
 
@@ -887,7 +930,8 @@ header{
   }
 form
 {
-    text-align: center;
+    text-align: left;
+    display: inline-block;
 }
 #abajo 
 {
@@ -973,6 +1017,7 @@ table
     text-align: center;
     color: black;
     border-top: 50px;
+    width: 1550px;
 }
 th
 {
@@ -981,6 +1026,7 @@ th
     font-family: 'DM serif Text', serif;
     text-align: center;
     font-size: 18px;
+   
 }
 td
 {
