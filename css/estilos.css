@@ -3,7 +3,7 @@
 {
     
     font-weight: 500;
-    color: #000;
+    color: #2f7f5e;
     text-align: center;
     text-align: center;
     width: 200px;
@@ -88,6 +88,9 @@ p .precio
 }
 .agregar-carrito {
     margin:10px 0;
+    background-color: #e17d51;
+    color: white;
+    border: 0px;
     
 }
 table #carrito
@@ -221,7 +224,7 @@ body{
     display: none;
 }
 header{
-    background-color: #88BC8B;
+    background-color: #56c59b;
     padding: 15px 60px;
     font-family: 'Lato', sans-serif;
     color:white;
@@ -339,34 +342,35 @@ header{
 /* HEADER */
 
 .titulocontacto{
-    background-color: #C2D0DA;
+    background-color: #d0f7e0;
     font-family: 'DM Serif Text';
     font-size: 28;
     padding: 20px, 500px;
     margin: 0px;
 }
 .titulocontacto h1{
-    color: #212D47;
-    width: 90%;
+    color: #2f7f5e;
+    padding-left: 30px;
     margin: auto;
     justify-content: center;
     text-align: left;
-    padding: 20px 0px;
+    padding: 20px 10px 20px 40px;;
+    font-family: 'Lato', sans-serif;
+
 }
 .ubicacion{
     width: 90%;
     justify-content: center;
 }
 .ubicacion h2{
-    color: #212D47;
+    color: #2f7f5e;
     width: 90%;
     justify-content: center;
     text-align: left;
     font-family: 'DM Serif Text';
-    padding-left: 0px;
     padding-top: 30px;
     padding-bottom: 10px;
-    margin: auto;
+    margin-left: 60px;
 }
 .ubicacion p{
     color: #212D47;
@@ -390,12 +394,13 @@ header{
     padding: 0;
 }
 .preguntas h2{
-    color: #212D47;
-    font-style: normal;
+    color: #2f7f5e;
+    width: 90%;
+    justify-content: center;
     text-align: left;
     font-family: 'DM Serif Text';
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 30px;
+ 
 }
 .preguntas p{
     color: #212D47;
@@ -404,7 +409,7 @@ header{
     font-family: 'Lato', sans-serif;
 }
 .formulario{
-    background-color: #E1E8ED;
+    background-color: #d0f7e0;
     font-family: 'Lato', sans-serif;
     font-size: small;
     color: #212D47;
@@ -417,7 +422,6 @@ header{
 .formularioarriba form input{
     width: 350px;
     height: 30px;
-    background-color: #C2D0DA;
     border: none;
     font-family: 'Lato', sans-serif;
     color: white;
@@ -430,10 +434,10 @@ header{
     padding-top: 0px;
 }
 .formularioabajo form input{
-    width: 100%;
+    width: 500%;
     margin: auto;
     height: 100px;
-    background-color: #C2D0DA;
+   
     border: none;
 }
 .formularioabajo form h4{
@@ -444,10 +448,10 @@ header{
     padding-top: 0px;
 }
 .formularioenviar form input{
-    width: 20%;
+
     height: 50px;
-    background-color: #212D47;
-    color: #C2D0DA;
+    background-color: #56c59b;
+    color: black;
     border: none;
     font-weight: 600;
 }
@@ -1021,7 +1025,7 @@ table
 }
 th
 {
-    background-color: #c2d0da;
+    background-color: #d0f7e0;
     color: #212d47;
     font-family: 'DM serif Text', serif;
     text-align: center;
@@ -1304,12 +1308,13 @@ h2
     margin-right: 0px;
     padding-top: 20px;
 }
+
 #titulos_footer
 {
    font-size: 19px;
    font-family: 'DM serif Text', serif;
    text-align: center;    
-  color: #212d47;
+  color: #2f7f5e;
 }
 #vertical, #vertical img
 {
@@ -1336,13 +1341,13 @@ h5
 #footabajo p, #footarriba p
 {
     text-align: center;
-    color: #212d47;
+    color: #2f7f5e;
     font-family: 'Lato', sans-serif;
 }
 #fizq p
 {
     display: inline-block;
-    color: #212d47;
+    color: #2f7f5e;
 }
 #centro {
     width: 500px;
