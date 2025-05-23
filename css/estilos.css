@@ -37,6 +37,24 @@ p .precio
     cursor: pointer;
     box-sizing: border-box;
 }
+.boton-pagar {
+    background-color:  #e17d51; /* Naranja */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px; /* Esquinas redondeadas */
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Lato', sans-serif;
+    margin-left: 700px;
+    margin-top: 30px;
+  }33
+  
+  .boton-pagar:hover {
+    background-color: #e69500; /* Naranja más oscuro al pasar el cursor */
+  }
 .agregar-carrito {
     margin: 10px 0;
 }
@@ -867,7 +885,7 @@ header{
  text-align: center;
  width: 200px;
  display: inline-block;
-
+color: #000;
  
 }
 
